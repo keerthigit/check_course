@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="course.js"></script> 
+</script>
+</head>
+<body>
+
+<br><br><br>
+
+<form name="myForm" method="post">
+  Name: <input type="text" name="scourse">
+  <input type="button" value="Submit" onClick="getSearchParameters()">
+  <input type="button" value="Clear" onClick="clearForm()">
+</form>
+<br>
+<table><tr><td> <p style="color:red" id="errorMsg"></p></td></tr></table>
+
+<table>
+	<tr><td>Department:</td><td><p id="department"></p></td></tr>
+	<tr><td>Course Number: </td><td><p id="courseNumber"></td></tr>
+	<tr><td>Year: </td><td><p id="year"></p></td></tr>
+	<tr><td>Semester:</td><td><p id="semester"></p></td></tr>
+</table>
+
+</body>
+</html>
